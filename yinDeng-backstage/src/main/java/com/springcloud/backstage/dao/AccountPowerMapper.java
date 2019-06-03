@@ -9,4 +9,10 @@ public interface AccountPowerMapper {
 	List<AccountPower> queryAll();
 	
 	
+	
+	
+	
+	
+	
+	
 }
