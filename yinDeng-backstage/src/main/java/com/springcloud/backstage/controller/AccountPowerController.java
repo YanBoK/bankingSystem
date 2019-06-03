@@ -16,5 +16,7 @@ public class AccountPowerController {
 	@ResponseBody
 	public String show() {
 		return accountPowerMapper.queryAll().toString();
+		
+		
 	}
 }
