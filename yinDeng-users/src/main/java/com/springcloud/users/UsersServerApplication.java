@@ -1,9 +1,11 @@
 package com.springcloud.users;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
+import org.springframework.context.annotation.ImportResource;
 
 /**
  * 扫描跨端口访问规则,也就是commom模块中的com.zl.client包下的所有接口,

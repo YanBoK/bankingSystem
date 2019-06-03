@@ -30,7 +30,7 @@ import org.springframework.context.annotation.ImportResource;
 //@ImportResource(locations = {"classpath*:/dao/*.xml"}) 
 
 /**一次性扫描com.zl.dao包下的所有Mapper接口*/
-@MapperScan("com.springcloud.users.dao") 
+@MapperScan("com.springcloud.backstage.dao") 
 public class BackstageServerApplication {
 
 	public static void main(String[] args) {
