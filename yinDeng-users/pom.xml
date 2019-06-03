@@ -64,13 +64,6 @@
 			<groupId>com.oracle</groupId>
 			<artifactId>ojdbc7</artifactId>
 		</dependency>
-
-		<!-- pagehelper -->
-		<dependency>
-			<groupId>tk.mybatis</groupId>
-			<artifactId>mapper</artifactId>
-		</dependency>
-
 		<!-- 测试 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
