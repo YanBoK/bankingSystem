@@ -90,5 +90,17 @@
 			<artifactId>spring-boot-starter-log4j</artifactId>
 		</dependency>
 
+		<!-- thymeleaf模板引擎依赖 -->
+		<dependency>
+			<groupId>org.thymeleaf</groupId>
+			<artifactId>thymeleaf</artifactId>
+		</dependency>
+
+		<!-- lombok 依赖 -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
+
 	</dependencies>
 </project>
