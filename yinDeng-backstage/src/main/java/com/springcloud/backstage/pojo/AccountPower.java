@@ -7,6 +7,8 @@ public class AccountPower implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 	
+	
+	
 
 	/**序列自动生成的id*/
 	private Integer id;
