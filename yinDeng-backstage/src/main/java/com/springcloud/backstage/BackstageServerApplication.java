@@ -3,7 +3,6 @@ package com.springcloud.backstage;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ImportResource;
 
 /**
  * 扫描跨端口访问规则,也就是commom模块中的com.zl.client包下的所有接口,

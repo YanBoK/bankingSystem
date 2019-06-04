@@ -2,9 +2,6 @@ package com.springcloud.backstage.pojo;
 
 import java.io.Serializable;
 
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
 
 public class AccountPower implements Serializable {
 
