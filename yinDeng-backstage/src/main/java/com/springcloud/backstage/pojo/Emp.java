@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.sql.Date;
 
 /**
- * Emp表实体类
+ * Emp表实体类 测试
  * @author ChenHao
  *
  */
