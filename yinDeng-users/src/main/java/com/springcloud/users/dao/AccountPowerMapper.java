@@ -6,7 +6,7 @@ import com.springcloud.users.pojo.Accountpower;
 
 public interface AccountPowerMapper {
 	/**
-	 * asa
+	 * asa  ddd
 	 * @return
 	 */
 	List<Accountpower>  queryAll();
