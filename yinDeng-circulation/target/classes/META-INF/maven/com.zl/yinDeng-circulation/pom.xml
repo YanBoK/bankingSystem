@@ -19,7 +19,7 @@
 			<version>${parent-version}</version>
 		</dependency>
 
-				<!-- springmvc -->
+		<!-- springmvc -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -31,11 +31,9 @@
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 
-		<!-- ribbon负载均衡的  eureka依赖于ribbon ,根据依赖传递,可以不用导入ribbon的依赖-->
-		<!-- <dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
-		</dependency> -->
+		<!-- ribbon负载均衡的 eureka依赖于ribbon ,根据依赖传递,可以不用导入ribbon的依赖 -->
+		<!-- <dependency> <groupId>org.springframework.cloud</groupId> <artifactId>spring-cloud-starter-netflix-ribbon</artifactId> 
+			</dependency> -->
 
 		<!-- feign -->
 		<dependency>
@@ -56,15 +54,21 @@
 		</dependency>
 
 		<!-- 分页插件依赖 -->
-			<dependency>
-				<groupId>com.github.pagehelper</groupId>
-				<artifactId>pagehelper-spring-boot-starter</artifactId>
-			</dependency>
-		
+		<dependency>
+			<groupId>com.github.pagehelper</groupId>
+			<artifactId>pagehelper-spring-boot-starter</artifactId>
+		</dependency>
+
 		<!-- Oracle -->
 		<dependency>
 			<groupId>com.oracle</groupId>
 			<artifactId>ojdbc7</artifactId>
+		</dependency>
+
+		<!-- lombok 依赖 -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
 		</dependency>
 
 
@@ -75,18 +79,18 @@
 			<scope>test</scope>
 		</dependency>
 
-	<!-- spring boot start -->
-	<dependency>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter</artifactId>
-		<exclusions>
-			<!-- 排除自带的logback依赖 -->
-			<exclusion>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-starter-logging</artifactId>
-			</exclusion>
-		</exclusions>
-	</dependency>
+		<!-- spring boot start -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+			<exclusions>
+				<!-- 排除自带的logback依赖 -->
+				<exclusion>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-starter-logging</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
 
 		<!-- springboot-log4j -->
 		<dependency>
