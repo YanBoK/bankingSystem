@@ -4,15 +4,13 @@ import java.io.Serializable;
 import java.sql.Date;
 
 /**
- * Emp表实体类 测试
+ * Emp表实体类
  * @author ChenHao
  *
  */
 public class Emp implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
-	
-	
 	
 	private String empno;
 	private String ename;
